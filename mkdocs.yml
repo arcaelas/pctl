@@ -16,17 +16,17 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: cyan
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: cyan
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
 
   font:
@@ -34,6 +34,7 @@ theme:
     code: Roboto Mono
 
   icon:
+    logo: material/kubernetes
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
