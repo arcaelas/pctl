@@ -1,22 +1,24 @@
 import { Noop } from '@arcaelas/utils';
 import type { z } from 'zod';
-import schema from '~/lib/schema';
+import type Schema from '~/lib/schema';
+import Cfn from './resolver/cfn';
 import Env from './resolver/env';
 import Self from './resolver/self';
 import Ssm from './resolver/ssm';
 
-export default async function resolve(parsed: z.infer<typeof schema>) {
+
+export default async function resolve(parsed: z.infer<typeof Schema>) {
     let uid = 0;
     const refs = new Map<string, any>();
     const pool = new Map<string, Noop>();
-    for (const fn of [Env, Ssm, Self, ...parsed.resolvers]) {
+    for (const fn of [Env, Ssm, Self, Cfn, ...parsed.resolver]) {
         const mod = typeof fn === 'string' ? require(fn) : (typeof fn === 'function' ? fn : null);
         const instance = new (mod?.default || mod)(parsed);
         if (!pool.has(instance.name)) {
             pool.set(instance.name, instance);
         } else throw new Error(`Resolver "${instance.name}" already registered`);
     }
-    parsed.services = await (async function walk(options: any): Promise<any> {
+    Object.assign(parsed, await (async function walk(options: any): Promise<any> {
         if (typeof options === 'string') {
             if (refs.has(options)) return refs.get(options);
             let str = options;
@@ -43,5 +45,5 @@ export default async function resolve(parsed: z.infer<typeof schema>) {
             return options;
         }
         return options;
-    })(parsed.services);
+    })(parsed));
 }

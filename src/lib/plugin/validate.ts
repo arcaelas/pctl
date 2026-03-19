@@ -8,8 +8,9 @@ export default async function validate(parsed: z.infer<typeof schema>) {
         throw new Error(`Schema validation failed:\n${errors}`);
     }
     for (const [name, service] of Object.entries(parsed.services)) {
-        if (service.instances.min > service.instances.max) {
-            throw new Error(`Service "${name}": instances.min (${service.instances.min}) cannot exceed instances.max (${service.instances.max})`);
+        const { replica } = service.scale;
+        if (Array.isArray(replica) && replica[0] > replica[1]) {
+            throw new Error(`Service "${name}": scale.replica min (${replica[0]}) cannot exceed max (${replica[1]})`);
         }
     }
 }

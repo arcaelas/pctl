@@ -1,0 +1,198 @@
+site_name: PCTL
+site_description: Declarative pod orchestrator for multi-cloud container deployments
+site_author: Arcaelas Insiders
+site_url: https://arcaelas.github.io/pctl/
+
+repo_name: arcaelas/pctl
+repo_url: https://github.com/arcaelas/pctl
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 Arcaelas Insiders
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - toc.follow
+    - toc.integrate
+
+nav:
+  - Home:
+    - Welcome: index.md
+    - Installation: installation.md
+    - Changelog: CHANGELOG.md
+
+  - Guides:
+    - Getting Started: guides/getting-started.md
+    - Configuration: guides/configuration.md
+    - Resolvers: guides/resolvers.md
+    - Plugins: guides/plugins.md
+
+  - Providers:
+    - Overview: providers/overview.md
+    - AWS (EKS): providers/aws.md
+    - Google Cloud (GKE): providers/gcp.md
+    - Docker: providers/docker.md
+
+  - API Reference:
+    - Schema: api/schema.md
+    - CLI: api/cli.md
+    - Resolvers: api/resolvers.md
+    - Plugins: api/plugins.md
+    - Providers: api/providers.md
+
+  - Examples:
+    - Basic Deploy: examples/basic-deploy.md
+    - Multi-Provider: examples/multi-provider.md
+    - Custom Resolvers: examples/custom-resolvers.md
+    - Custom Plugins: examples/custom-plugins.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      lang:
+        - en
+        - es
+      separator: '[\s\-\.]+'
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Espanol
+          build: true
+          nav_translations:
+            Home: Inicio
+            Welcome: Bienvenida
+            Installation: Instalacion
+            Changelog: Registro de Cambios
+            Guides: Guias
+            Getting Started: Comenzando
+            Configuration: Configuracion
+            Resolvers: Resolvers
+            Plugins: Plugins
+            Providers: Proveedores
+            Overview: General
+            "AWS (EKS)": "AWS (EKS)"
+            "Google Cloud (GKE)": "Google Cloud (GKE)"
+            Docker: Docker
+            API Reference: Referencia API
+            Schema: Schema
+            CLI: CLI
+            Examples: Ejemplos
+            Basic Deploy: Despliegue Basico
+            Multi-Provider: Multi-Proveedor
+            Custom Resolvers: Resolvers Personalizados
+            Custom Plugins: Plugins Personalizados
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+
+extra:
+  alternate:
+    - name: English
+      link: /pctl/
+      lang: en
+    - name: Espanol
+      link: /pctl/es/
+      lang: es
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/arcaelas/pctl
+    - icon: fontawesome/brands/npm
+      link: https://www.npmjs.com/package/@arcaelas/pctl
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
