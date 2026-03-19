@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://arcaelas.github.io/pctl/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/CHANGELOG/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/CHANGELOG/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/CHANGELOG/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/installation/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/installation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/installation/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/api/cli/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/cli/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/cli/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/api/plugins/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/plugins/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/plugins/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/api/providers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/providers/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/providers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/api/resolvers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/resolvers/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/resolvers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/api/schema/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/schema/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/schema/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/examples/basic-deploy/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/basic-deploy/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/basic-deploy/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/examples/custom-plugins/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/custom-plugins/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/custom-plugins/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/examples/custom-resolvers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/custom-resolvers/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/custom-resolvers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/examples/multi-provider/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/multi-provider/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/multi-provider/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/guides/configuration/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/configuration/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/guides/getting-started/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/guides/plugins/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/plugins/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/plugins/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/guides/resolvers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/resolvers/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/resolvers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/providers/aws/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/aws/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/aws/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/providers/docker/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/docker/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/docker/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/providers/gcp/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/gcp/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/gcp/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/providers/overview/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/overview/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/overview/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/CHANGELOG/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/CHANGELOG/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/CHANGELOG/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/installation/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/installation/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/api/cli/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/cli/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/cli/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/api/plugins/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/plugins/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/plugins/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/api/providers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/providers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/providers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/api/resolvers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/resolvers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/resolvers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/api/schema/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/api/schema/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/api/schema/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/examples/basic-deploy/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/basic-deploy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/basic-deploy/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/examples/custom-plugins/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/custom-plugins/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/custom-plugins/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/examples/custom-resolvers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/custom-resolvers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/custom-resolvers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/examples/multi-provider/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/examples/multi-provider/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/examples/multi-provider/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/guides/configuration/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/configuration/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/guides/getting-started/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/guides/plugins/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/plugins/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/plugins/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/guides/resolvers/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/guides/resolvers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/guides/resolvers/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/providers/aws/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/aws/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/aws/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/providers/docker/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/docker/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/providers/gcp/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/gcp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/gcp/"/>
+    </url>
+    <url>
+        <loc>https://arcaelas.github.io/pctl/es/providers/overview/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://arcaelas.github.io/pctl/es/providers/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://arcaelas.github.io/pctl/providers/overview/"/>
+    </url>
+</urlset>
