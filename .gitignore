@@ -39,3 +39,4 @@ site/
 
 # claude
 .claude/
+.claude/.arko/
