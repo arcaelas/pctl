@@ -1,6 +1,6 @@
 {
   "name": "@arcaelas/pctl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Declarative pod orchestrator for Kubernetes deployments",
   "license": "ISC",
   "main": "build/index.js",
