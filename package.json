@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Declarative pod orchestrator for Kubernetes deployments",
   "license": "MIT",
-  "main": "build/index.js",
+  "main": "./build/cjs/index.js",
   "bin": {
     "pctl": "build/index.js"
   },
@@ -34,19 +34,17 @@
     "arcaelas"
   ],
   "files": [
-    "build/"
+    "build"
   ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "tsc && tsc-alias",
+    "build": "rm -rf build && tsc --module commonjs --moduleResolution node --outDir build/cjs && tsc-alias --outDir build/cjs && echo '{\"type\":\"commonjs\"}' > build/cjs/package.json && tsc --module ESNext --moduleResolution bundler --outDir build/esm && tsc-alias --resolve-full-paths --outDir build/esm && echo '{\"type\":\"module\"}' > build/esm/package.json",
     "docs": "mkdocs gh-deploy --force",
-    "lint": "eslint src/",
-    "lint:fix": "eslint src/ --fix",
-    "prepublishOnly": "rm -rf build && yarn build",
-    "release": "npm publish --access public"
+    "release": "npm publish --access public",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "@arcaelas/utils": "^2.0.8",
@@ -72,5 +70,14 @@
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.57.1"
+  },
+  "module": "./build/esm/index.js",
+  "types": "./build/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/esm/index.d.ts",
+      "import": "./build/esm/index.js",
+      "require": "./build/cjs/index.js"
+    }
   }
 }
