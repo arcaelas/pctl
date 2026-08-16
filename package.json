@@ -2,7 +2,7 @@
   "name": "@arcaelas/pctl",
   "version": "1.1.0",
   "description": "Declarative pod orchestrator for Kubernetes deployments",
-  "license": "ISC",
+  "license": "MIT",
   "main": "build/index.js",
   "bin": {
     "pctl": "build/index.js"
@@ -45,8 +45,8 @@
     "docs": "mkdocs gh-deploy --force",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
-    "prepublishOnly": "yarn build && npm version minor",
-    "postpublish": "rm -rf build/"
+    "prepublishOnly": "rm -rf build && yarn build",
+    "release": "npm publish --access public"
   },
   "dependencies": {
     "@arcaelas/utils": "^2.0.8",
